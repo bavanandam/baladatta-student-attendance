@@ -24,7 +24,7 @@ This is a light weight PWA App for student attendance
 
 ## 💻 Tech Stack
 
-- **JavaScript (React)**: Frontend development and PWA functionality.  
+- **JavaScript (React), CSS and HTML5**: Frontend development and PWA functionality.  
 - **Google Sheets API**: Backend integration for storing and retrieving attendance data.  
 
 Baladatta student attendance PWA can run entirely for free:
