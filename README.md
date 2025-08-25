@@ -4,14 +4,14 @@ This is a light weight PWA App for student attendance
 ## ⚡ Requirements
 
 - **Zero operational cost**: Completely free to run.  
-- **Mobile app-like experience**: Easy-to-use interface for teachers, installable as a PWA.  
+- **Mobile app-like experience**: Easy-to-use interface for teachers, installable as a PWA.  We ruled out native mobile app development because it costs $100 per year for iOS, and iOS apps are the most in-demand
 - **Minimal clicks**: Streamlined workflow for quick attendance submission.  
 - **Secure**: Ensures data integrity and teacher authentication.  
 
 ## 🛠️ Solution Components
 
 - **Static PWA hosted on GitHub Pages**: Fully static and free hosting solution.  
-- **Google Sheets backend**: Free and collaborative data storage for attendance.  
+- **Google Sheets backend**: Free and collaborative data storage for attendance - We chose Google Sheets instead of DB to avoid another API layer and API hosting that costs in cloud.
 - **OAuth 2.0 login for teachers**: Secure authentication using Google accounts.  
 - **Level-based access**: Each teacher can only see and submit attendance for their assigned level (5 levels in total).  
 
